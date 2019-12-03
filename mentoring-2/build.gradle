@@ -1,0 +1,22 @@
+apply plugin: 'application'
+mainClassName = 'sample.Env'
+
+dependencies {
+    compile project(':mentoring-1')
+    
+   //Spring
+   compile "org.springframework:spring-context:${springVersion}"
+   compile "org.springframework:spring-context-support:${springVersion}"
+   runtime "org.springframework:spring-web:${springVersion}"
+   compile group: 'org.springframework', name: 'spring-webmvc', version: '4.1.4.RELEASE'
+   compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+   compile group: 'jstl', name: 'jstl', version: '1.2'
+   testCompile group: 'junit', name: 'junit', version: '4.4'
+   testCompile group: 'org.springframework', name: 'spring-test', version: '4.0.5.RELEASE'
+   
+   
+   
+   
+   
+    
+}

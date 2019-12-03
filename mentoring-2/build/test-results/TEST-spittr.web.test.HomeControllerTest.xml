@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="spittr.web.test.HomeControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-12-03T14:30:51" hostname="CO-IT02374" time="0.485">
+  <properties/>
+  <testcase name="testHomePage" classname="spittr.web.test.HomeControllerTest" time="0.485"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Dec 03, 2019 9:30:51 AM org.springframework.test.web.servlet.setup.StandaloneMockMvcBuilder$StaticRequestMappingHandlerMapping registerHandlerMethod
+INFO: Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String spittr.web.HomeController.home()
+Dec 03, 2019 9:30:51 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: org.springframework.test.web.servlet.setup.StubWebApplicationContext@2258f28f
+Dec 03, 2019 9:30:51 AM org.springframework.mock.web.MockServletContext log
+INFO: Initializing Spring FrameworkServlet ''
+Dec 03, 2019 9:30:51 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization started
+Dec 03, 2019 9:30:51 AM org.springframework.test.web.servlet.TestDispatcherServlet initServletBean
+INFO: FrameworkServlet '': initialization completed in 4 ms
+]]></system-err>
+</testsuite>
